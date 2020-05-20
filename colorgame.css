@@ -2,9 +2,7 @@ body {
     background-color: #232322;
     margin: 0;
     font-family: "Arial","Monserrat", "Avenir";
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRYNrSwUDsyUGsfyjhN7aMDvlfWbXd2ETtlP6hzmxM967uIR1j9&usqp=CAU);
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 h1 {
@@ -18,13 +16,22 @@ h1 {
     padding: 20px 0;
 }
 
+.h1Container{
+    background-color: steelblue;
+}
+
 #colorDisplay{
     font-size: 200%;
 }
 
 #message {
 display: inline-block;
-width: 13%;
+width: 20%;
+font-weight: bolder;
+text-transform: uppercase;
+transition: all 0.5s;
+border: green 1px;
+margin: auto auto;
 }
 .square {
     width: 30%;
@@ -43,7 +50,7 @@ width: 13%;
  
 #stripe{
     background-color: white;
-    height: 30px;
+    height: 50px;
     text-align: center;
     color: black;
 }
