@@ -34,12 +34,14 @@ function setupSquares (){
             var clickedcolor = this.style.backgroundColor;  
             if (clickedcolor === pickedColor) {
                 messageDisplay.textContent = "Correct"
+                messageDisplay.style.color = "green"
                 resetButton.textContent = "Play Again?";
                 changeColors(clickedcolor);
                 h1.style.backgroundColor = clickedcolor;                
             } else {
                 this.style.backgroundColor = "#232323"
                 messageDisplay.textContent = "Try Again"
+                messageDisplay.style.color = "red"
             }
            });
     }
